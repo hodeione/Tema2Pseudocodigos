@@ -1,0 +1,25 @@
+class Kate{
+nombre: "Kate"
+apellido: "Windsor"
+apellido de nacimiento: "Middleton"
+sexo: "Mujer"
+}
+class Guillermo{
+nombre: "Guillermo"
+apellido: "Windsor"
+sexo: "Hombre"
+}
+class Diana{
+nombre: "Diana"
+apellido: "Windsor"
+apellido de nacimiento: "Spencer"
+sexo: "Mujer"
+}
+class Carlos{
+nombre: "Carlos"
+apellido: "Windsor"
+sexo: "Hombre"
+}
+Guillermo--> "Está casado con" Kate
+Guillermo--> Diana: "Es hijo de"
+Guillermo--> Carlos: "Es hijo de"
