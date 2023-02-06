@@ -1,0 +1,16 @@
+@startuml
+c1Circulo: color= "Negro"
+c1Circulo: diametro= 1
+
+
+r1Rectangulo: longitud: 3
+r1Rectangulo: altur a: 1
+r1Rectangulo: color:"Naranja"
+
+c1Cuadrado: colo:"azul"
+c1Cuadrado: longitud: 1,5
+
+e1Elipse: color:"Negro"
+e1Elipse: eje mayor:2
+e1Elipse: eje menor:1
+@enduml
