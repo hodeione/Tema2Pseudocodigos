@@ -1,0 +1,10 @@
+class Persona{
+Nombre: 1 Texto
+Primer Apellido: 1Texto
+Segundo Apellido: 0..1 1 Texto
+Fecha de nacimiento: 1 Tiempo
+Sexo: 1 Texto
+Número de Identificacion: 0..1 Texto
+
+}
+@enduml

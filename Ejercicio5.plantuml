@@ -1,20 +1,19 @@
 class Circulo{
-class Circulo{
- color= "Negro"
+ color= Negro
  diametro= 1
 }
 class Rectangulo{
  longitud: 3
  altur a: 1
- color:"Naranja"
+ color:Naranja
 }
 class cuadrado{
  colo:"azul"
  longitud: 1,5
 }
 class Elipse{
-e1Elipse: color:"Negro"
+e1Elipse: color:Negro
 e1Elipse: eje mayor:2
 e1Elipse: eje menor:1
 }
-}
+@enduml

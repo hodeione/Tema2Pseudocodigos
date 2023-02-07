@@ -1,0 +1,13 @@
+
+class Persona{
+Nombre: 1 Texto
+Primer Apellido: 1Texto
+Segundo Apellido: 0..1 1 Texto
+Fecha de nacimiento: 1 Tiempo
+Sexo: 1 Texto
+Número de Identificacion: 1 Texto
+}
+
+Persona "Cóonyuge 0..1"--"Cónyuge 0..1" Persona : Está casada con: >
+Persona "Hijo 0..*"--"Progenitor 2" Persona : Es Hija de >
+@enduml

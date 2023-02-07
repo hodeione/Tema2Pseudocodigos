@@ -1,0 +1,39 @@
+@startuml
+class FormaA{
+Color: 1 Texto
+}
+
+class Cuadrilatero{
+Longitud: 1 Texto
+}
+FormaA<|-- Cuadrilatero
+class Conica{}
+FormaA<|--Conica
+
+Cuadrilatero<|-- Rectangulo
+Cuadrilatero<|-- Cuadrado
+
+
+class Rectangulo{
+ longitud: 3
+ altur a: 1
+ color:Naranja
+}
+class Cuadrado{
+ colo:"azul"
+ longitud: 1,5
+}
+
+Conica<|-- Elipse
+Conica<|-- Circulo
+
+class Circulo{
+ color= Negro
+ diametro= 1
+}
+class Elipse{
+e1Elipse: color:Negro
+e1Elipse: eje mayor:2
+e1Elipse: eje menor:1
+}
+@enduml
