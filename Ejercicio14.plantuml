@@ -1,0 +1,54 @@
+@startuml
+class pol1{
+
+}
+
+class pt1{
+  x:-10
+  y:10
+}
+pol1 o-- pt1  :posee >
+
+class pt2{
+  x:10
+  y:10
+}
+
+pol1 o-- pt2  :posee >
+class pol1{
+
+}
+
+class pt3{
+  x:-10
+  y:-10
+}
+pol1 o-- pt3  :posee >
+
+class pt4{
+  x:10
+  y:-10
+}
+
+class pol2{
+
+}
+
+pol2 o-- pt4  :posee >
+
+class pt5{
+x=10
+7=10
+}
+
+pol2 o-- pt5 :posee >
+
+class pt6{
+x =-10
+y=10
+
+}
+pol2 o-- pt6 :posee >
+
+
+@enduml
