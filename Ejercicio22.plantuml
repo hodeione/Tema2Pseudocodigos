@@ -1,0 +1,38 @@
+@startuml
+class Ciudad{
+Nombre: 1 Texto
+Provincia: 1 Texto
+Pais: 1 Texto
+}
+
+class EspacioAbierto{
+Nombre: 1 Texto
+}
+Ciudad "1" o-- "0..*" EspacioAbierto
+
+class Edificio{
+Numero:1 Texto
+}
+
+EspacioAbierto "1" o-- "0..*" Edificio
+
+class ElementoEstructural{
+Tipo: 1 enum TipoElemento
+}
+
+Edificio o-- ElementoEstructural
+
+enum TipoElemento{
+Portada
+Puerta
+Ventana
+Balcon
+}
+
+class Calle extends EspacioAbierto{
+Longitud: 1 Numero
+}
+class Plaza extends EspacioAbierto{
+Superficie: 1 Numero
+}
+@endumlto

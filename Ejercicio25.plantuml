@@ -1,0 +1,22 @@
+@startuml
+
+class Libro{
+Numero de hojas: 1 NUmero
+Forma de impresión: 1 enum Formaimpresion
+Tecnica de impresion: 1 enum TecnicaEncuadernacion
+}
+
+enum Formaimpresion{
+Manuscrito
+Impreso
+}
+enum Tecnicaimpresion{
+Cosido
+Encuadernado
+}
+
+class Muestra{
+Fraccion del total: 1 Numero
+Metodo de extraccion: 1 Texto
+}
+@enduml

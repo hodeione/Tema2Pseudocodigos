@@ -1,0 +1,10 @@
+c@startuml
+class Construccion{
+}
+class Edificio{}
+class ConjuntoConstruido{}
+
+Construccion<|-- Edificio
+Construccion <|-- ConjuntoConstruido
+ConjuntoConstruido "0..*" o-- "0..1"Construccion
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+class Edificio{}
+class UsoEdificio{
+Fecha de inicio:1 Tiempo
+Fecha
+}
+
+class Hospital extends UsoEdificio{}
+class Escuela extends UsoEdificio{}
+class Vivienda extends UsoEdificio{}
+
+Edificio "1" o-- "0..*" UsoEdificio
+
+@enduml
