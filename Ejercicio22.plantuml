@@ -35,4 +35,4 @@ Longitud: 1 Numero
 class Plaza extends EspacioAbierto{
 Superficie: 1 Numero
 }
-@endumlto
+@enduml

@@ -1,4 +1,4 @@
-c@startuml
+@startuml
 class Construccion{
 }
 class Edificio{}

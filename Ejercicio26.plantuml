@@ -1,0 +1,73 @@
+@startuml
+class Iglesia{
+Nombre: 1 Texto
+Dirección: 0..1 Texto
+}
+
+class IglesiaRural{
+
+}
+
+class IglesiaMonacal{
+Orden: 1 Texto
+}
+
+class Crucero{
+Tipo: 1 enum TipoCrucero
+}
+
+class Ábside{
+Forma: 1 enum FormaÁbside
+}
+
+class Nave{
+Superficie: 1 Número
+}
+
+class Ventana{
+Descripción: 1 Texto
+Anchura: 1 Número
+Altura: 1 Número
+}
+
+class VentanaSimple{
+Tiene arco doble: 1 Booleano
+Está decorada: 1 Booleano
+Técnica de cierre: 1 enum TécnicaCierreSimple
+}
+
+class VentanaCompleja{
+Técnica de cierre: 1 enum TécnicaCierreComplejo
+}
+
+enum TécnicaCierreSimple{
+Tela encerada
+Tela impregnada
+}
+
+enum TécnicaCierreComplejo{
+Vidriera incolora
+Vidriera coloreada
+}
+
+enum FormaÁbside{
+Semicircular
+En corona
+}
+
+enum TipoCrucero{
+Sin brazos salientes
+Con brazos salientes
+}
+class IglesiaRural extends Iglesia{}
+class IglesiaMonacal extends Iglesia{}
+IglesiaMonacal "1" o-- "1" Crucero
+IglesiaMonacal "0..1" o-- "3..5" Ábside
+IglesiaMonacal "0..1" o-- "3..5" Nave
+IglesiaMonacal "1" o-- "1..*" VentanaCompleja
+IglesiaRural "0..1" o-- "1*" Ábside
+IglesiaRural "0..1" o-- "1*" Nave
+IglesiaRural "1" o-- "0..*" VentanaSimple
+class VentanaSimple extends Ventana{}
+class VentanaCompleja extends Ventana{}
+@enduml

@@ -1,3 +1,4 @@
+@startuml
 class Circulo{
  color= Negro
  diametro= 1

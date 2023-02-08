@@ -1,4 +1,4 @@
-
+@startuml
 class Persona{
 Nombre: 1 Texto
 Primer Apellido: 1Texto

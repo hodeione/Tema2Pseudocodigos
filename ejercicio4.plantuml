@@ -1,4 +1,4 @@
-
+@startuml
 object CatedralSantiago{
 Nombre= "Catedral SantiagoCompostela"
 Nombre = “Catedral de Santiago de Compostela”

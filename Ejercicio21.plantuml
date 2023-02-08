@@ -1,3 +1,4 @@
+@startuml
 class EntidadGeográfica{
 Código: 1 Texto
 Nombre: 1 Texto
