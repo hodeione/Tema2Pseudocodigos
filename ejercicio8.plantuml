@@ -1,0 +1,12 @@
+@startuml
+class Actuacion{
+Fecha de inicio: 1 Tiempo
+Fecha de fin: 0..1 Tiempo
+Tipo: enum TipoDeActuacion
+}
+enum TipoDeActuacion{
+Sondeo
+Excavación
+Seguimiento
+}
+@enduml
