@@ -1,0 +1,43 @@
+@startuml
+class Gioconda{
+Título =  “La Gioconda”
+AC = “1503 - 1516”
+Técnica = Óleo
+Sub-técnica = Sfumato
+Soporte = Madera de álamo
+Autor = “Leonardo da Vinci”
+Estado de conservación = Regular
+}
+
+class l1{
+Institución = “Museo del Louvre”
+Ciudad = “París”
+País = “Francia”
+}
+
+Gioconda -- l1 :Se localiza en: >
+
+
+
+class Replica{
+Título = “Gioconda de El Prado”
+AC = “1503 - 1516”
+Técnica = Óleo
+Sub-técnica = Pincelada simple
+Soporte = Madera de nogal
+Autor = desconocido
+Estado de conservación = Bueno
+}
+
+class l2{
+Institución = “Museo de El Prado”
+Ciudad = “Madrid”
+País = “España”
+}
+
+Replica -- l2 :Se localiza en: >
+
+
+
+Replica--Gioconda
+@enduml

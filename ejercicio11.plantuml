@@ -1,0 +1,34 @@
+@startuml
+class Cuadro{
+Título: 0..* Texto 
+Cronología: 1 Tiempo
+Técnica: 1 enum Técnica
+Sub-técnica: 1 enum Sub-Técnica
+Material del soporte: 1 enum Material
+Autor: 1 Texto
+Estado de conservación: 1 enum Estado de Conservación
+}
+
+class lugar{
+Institución: 1 Texto
+Ciudad: 1 Texto
+País: 1 Texto
+}
+
+Cuadro "0..*" --"1"lugar :Se localiza en: >
+
+
+
+class Replica{
+Título: 0..* Texto
+Cronología: 1 Tiempo
+Técnica: 1 enum Técnica
+Sub-técnica: 1 enum Sub-Técnica
+Material del soporte: 1 enum Material
+Autor: 1 Texto
+Estado de conservación: 1 enum Estado de Conservación
+}
+
+
+Replica "0..*" --"1"Cuadro :Es réplica de: >
+@enduml
