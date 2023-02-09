@@ -33,9 +33,6 @@ EJERCICIO10:
 EJERCICIO11: 
 <img src "https://www.plantuml.com/plantuml/svg/tP1BIiH048RtTOeYIo63iyr2Hi8iN0ZYv09bTp4qTBf2FqGSFD0iil88kPXvHyKJkAp_g_pf-WuXae-fjg0iXO1b8ktb0bNNncIbmDlTxWOhVek2K7fnOkNSjLJW7Yl3TIFzwbKveyQ8NQfn2U2KNlBucmxXkl58aRqXYvej1cd4Hrut5mZtAOhlu-aTS0oHjA1cLE82-rTIfljqwtSRBxzp-83vI9lEv2_mu48qCOrmQozDqgIt-OcwDcnZNp8vmcnGas6UP_jiRCJYn6X5aJNlXDnttW4i_tpcnXf5Vvhz1s9Xlk-7bLbKSGpek-l4DGzQ3knqgkqN" />
 
-EJERCICIO12: 
-<img src "
-
 EJERCICIO13: 
 <img src "https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuU9ApaaiBbOeA36ivb9GgB3IDJG0qfLMGAgMgo0_nr0XNrSN9AsWO5MGNvoQgc27q6C4qOD3Yn522rG7IBAQYwiMOO8nggswO3EG3J76DAJ41A89HG-A9XDant8vfEQb0BqA0000" />
 
